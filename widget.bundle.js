@@ -7,7 +7,7 @@
   var STYLE_ID = 'rw-widget-styles';
   // ======= /CONFIG =======
 
-  // Template: qui ho incorporato il contenuto del tuo Gist (HTML + inline styles)
+  // Template HTML + inline styles (usa backslash-escaped newlines for safe embedding)
   var WIDGET_HTML = '\
 <style> \
 .custom-row-1{display:flex!important;flex-direction:row;flex-wrap:wrap!important;width:100%!important;margin:0 auto;} \
@@ -49,7 +49,6 @@
       </video> \
     </div> \
   </div> \
-  <!-- (il resto del contenuto è mantenuto; copia / incolla dei blocchi video e immagini come nell\'originale) --> \
   <div class="custom-row-1 wide"> \
     <div class="custom-columnVID custom-6"> \
       <div align="center"><h4>TRADING CAMP 2022</h4></div><br> \
@@ -68,7 +67,6 @@
       </video> \
     </div> \
   </div> \
-  <!-- continua con immagini e sezioni seguenti, mantenute come nell\\'originale --> \
   <div style="background-color:white;padding-top:45px;"> \
     <div style="max-width:100%!important;margin:0 auto; width:960px;"> \
       <p style="text-align:center;margin-top:20px;margin-bottom:20px;"><strong><span class="titolo2"><span style="color: rgb(227, 108, 9);">ECCO CHE COSA DICE CHI HA PARTECIPATO AI CORSI DI QTLAB CON LUCA GIUSTI...</span></span></strong></p> \
@@ -132,7 +130,6 @@ img{max-width:100%;height:auto;display:block} \
     node.appendChild(host);
 
     // If widget contains external JSONP or external players (e.g., Wistia), try to load them if present
-    // Example: if content contains fast.wistia.com embed JSONP, load it
     if (WIDGET_HTML.indexOf('fast.wistia.com/embed/medias') !== -1) {
       loadExternalScript('https://fast.wistia.com/embed/medias/4ja0c5ydtu.jsonp', function () {
         // external script loaded (if available)
