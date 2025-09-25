@@ -28,7 +28,7 @@
 </style> \
 <div class="custom-section even" style="padding-top:45px;"> \
   <div class="custom-row wide"> \
-    <h2 style="color:#e67300;margin-bottom:40px;" class="titolo">COM\\'E UN CORSO QTLAB?<br>CHIEDILO A CHI C\\'ERA...</h2> \
+    <h2 style="color:#e67300;margin-bottom:40px;" class="titolo">COME è UN CORSO QTLAB?<br>CHIEDILO A CHI C'ERA...</h2> \
     <br><br><br> \
   </div> \
   <div class="custom-row-1 wide"> \
@@ -162,3 +162,4 @@ img{max-width:100%;height:auto;display:block} \
   };
 
 })();
+
