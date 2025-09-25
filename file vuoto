@@ -1,0 +1,21 @@
+
+---
+
+### File 5 — .nojekyll
+File vuoto per evitare rewrite Jekyll che può interferire con percorsi.
+
+(Contenuto: file vuoto)
+
+---
+
+### Istruzioni finali e checklist rapida
+- **Salva i file** nella root del repo e committa/pusha su branch main.  
+- **Salva widget.bundle.js** come UTF-8 senza BOM.  
+- **Attiva GitHub Pages** (Settings > Pages > main branch > root).  
+- **Attendi 1–5 minuti**, poi apri:
+  - https://TUO-USERNAME.github.io/NOME-REPO/
+  - https://TUO-USERNAME.github.io/NOME-REPO/widget.bundle.js (controlla che mostri codice JS e non HTML)
+- Se il widget non appare in Teachable dopo aver incluso lo script, prova il CDN jsDelivr come fallback:
+  - https://cdn.jsdelivr.net/gh/TUO-USERNAME/NOME-REPO@main/widget.bundle.js
+
+Se vuoi, una volta che hai fatto il push incolla qui l’URL Pages e controllo immediatamente che il file widget.bundle.js sia servito correttamente e senza errori.
