@@ -3,7 +3,7 @@
   'use strict';
 
   // ======= CONFIG =======
-  var WIDGET_SELECTOR = '.reviews-widget';
+  var WIDGET_SELECTOR = ".reviews-widget";
   var STYLE_ID = 'rw-widget-styles';
   // ======= /CONFIG =======
 
